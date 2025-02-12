@@ -13,6 +13,7 @@ const MAPPING = {
   'share.fill': 'share',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'coffeescript': 'coffeescript'
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],

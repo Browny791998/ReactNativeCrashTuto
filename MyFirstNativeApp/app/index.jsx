@@ -10,6 +10,12 @@ const app = () => {
       <ImageBackground source={icedCoffeeImg} resizeMode='cover' style={styles.image}>
       <Text style={styles.text}>Coffee Shop</Text>
 
+      <Link href="/menu" style={{marginHorizontal: 'auto'}}  asChild>
+      <Pressable style={styles.button}>
+        <Text style={styles.buttonText}>  Menu List</Text>
+      </Pressable>   
+      </Link>
+
       <Link href="/contact" style={{marginHorizontal: 'auto'}}  asChild>
       <Pressable style={styles.button}>
         <Text style={styles.buttonText}>  Contact Us</Text>
@@ -57,6 +63,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0,0,0.75)',
     padding: 6,
     justifyContent: 'center',
+    marginBottom: 50
   },
   buttonText: {
     color: 'white',
